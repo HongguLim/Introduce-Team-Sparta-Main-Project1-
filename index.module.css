@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto 200px auto;
+}
+
+.paragraph {
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-bottom: 200px;
+  text-align: right;
+}
+
+.item,
+.item-center {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.img-hover,
+.secondImg-hover {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  transition: 0.5s;
+}
+.img-hover:hover,
+.secondImg-hover:hover {
+  background-color: rgba(194, 194, 194, 0.7);
+  cursor: pointer;
+}
+.img,
+.secondImg {
+  top: 0px;
+  width: 300px;
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+.img:hover,
+.secondImg:hover {
+  cursor: pointer;
+}
+.secondImg,
+.secondImg-hover {
+  margin-top: 150px;
+}
+
+.desc-center {
+  margin-left: 100px;
+  flex: 1;
+}
+.desc {
+  margin-left: 50px;
+  margin-right: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leftContainer {
+
+  width: 400px;
+  height: flex;
+  float: left;
+  margin-top: 50px;
+  /* background-color: #BCC7BF; */
+
+}
+
+.rightContainer {
+  width: 700px;
+  height: flex;
+  float: right;
+  margin-top: 50px;
+  /* background-color: #BCC7BF; */
+
+}
+
+
+
+
+
+
+.imgBox {
+  width: 400px;
+  height: 400px;
+  float: center;
+  margin: auto;
+  border-radius: 70%;
+  overflow: hidden;
+
+}
+
+
+.personalInformationBox {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  font-size: 20px;
+  margin-top: 100px;
+
+}
+
+
+
+
+
+
+.mainBox {
+  width: 95%;
+  max-width: 500px;
+  margin: 20px auto 20px auto;
+  font-size: 20px;
+  padding: 20px;
+
+
+}
+
+.commentBox {
+  float: right;
+  width: 100%;
+  height: 40%;
+  margin-top: 90px;
+
+}
+
+
+
+
+
+.profileImg {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  object-fit: cover;
+  background: #E5D34D;
+}
+
+
+.mypost {
+  width: 95%;
+  max-width: 500px;
+  margin: 20px auto 20px auto;
+
+  /* box-shadow: 0px 0px 3px 0px black; */
+  padding: 20px;
+}
+
+.mypost>button {
+  margin-top: 15px;
+}
+
+.mycards {
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.mycards>.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.textCenter {
+  text-align: center;
+}
+
+
+.textRight {
+  text-align: right;
+}
+
+
